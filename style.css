@@ -1,0 +1,26 @@
+.mainBox{
+    width: 700px;
+    height: 320px;
+    margin: 0 auto;
+    background-color: rgb(190, 185, 176);
+    border-radius: 5px;
+    position: relative;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.badWordsAreaStyle{
+    width: 200px;
+}
+.titelLane p{
+    display: inline-block;
+}
+p {
+    font-weight: bold;
+}
+.badWords{
+    color: red;
+    
+}
+
+

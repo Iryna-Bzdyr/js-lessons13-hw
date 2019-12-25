@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lessons15</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="mainBox">
+        <form name="comandsForm">
+            <div class="titelLane">
+                <p>Bad words:</p>
+                <p class="badWords"></p>
+            </div>
+            <div class="form-row">
+                <div class="col badWordsAreaStyle">
+                    <input type="text" name="badWordsArea" class="badWordsAreaStyle form-control mainInput" style="margin: 5px;" placeholder="text here">
+                </div>
+                <input type="button" value="Add" name="addBtn" class="btn btn-warning" style="margin: 5px;">
+                <input type="button" value="Reset" name="resetBtn" class="btn btn-danger" style="margin: 5px;" >
+            </div>
+            <br>
+            <input type="text" name="checkArea" class="form-control checkInput" style="height: 100px; margin: 5px;padding-bottom: 60px; ;" placeholder="text here"> <br>
+            <input type="button" value="Cenzor" name="cenzorBtn" class="mainButton  btn btn-success" style="position: absolute; left:45%;" >
+        </form>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
